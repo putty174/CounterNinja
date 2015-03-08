@@ -1,0 +1,162 @@
+//This is the output code for the CN Level Editor. Place into void LoadContent()
+//Level Name: Room1_4
+
+//This creates the visual image of the backgroundTexture for you to see
+BackgroundSystem.AddBodylessBackground("Level/Room1_4/Room1_4_Background");
+//This creates the physical body for the room
+BackgroundSystem.AddBackgroundBody("Level/Room1_4/Room1_4_BodyBackground", 1f, Vector2.Zero);
+
+CameraBoundary = new CameraBoundary(0, 2200, 0, 1320);
+
+//Play default music
+MusicSystem.PlaySong("Music/CounterNinja_BGM");
+MusicSystem.Repeat = true;
+
+//Load next level trigger
+object[] levelParam = new object[1] { new LoadingScreen(new LevelTemplate1(), 2) };
+ScriptSystem.AddScript(new TriggerScript(this, ScriptCommand.LoadNextLevel, "NextLevel", levelParam, Player.Body, ConvertUnits.ToSimUnits(new Vector2(1161, 1029)), 2, 1));
+
+
+
+////----Level Setup Code Below----////
+
+SetPlayerLocation(147, 752);
+
+AddEnemyNinja1(938, 753);
+
+CreateLargeSpikes(1302, 1297, 1, 0);
+CreateLargeSpikes(1327, 1297, 1, 0);
+CreateLargeSpikes(1352, 1297, 1, 0);
+CreateLargeSpikes(1377, 1297, 1, 0);
+CreateLargeSpikes(1402, 1297, 1, 0);
+CreateLargeSpikes(1427, 1297, 1, 0);
+CreateLargeSpikes(1452, 1297, 1, 0);
+CreateLargeSpikes(1477, 1297, 1, 0);
+CreateLargeSpikes(1502, 1297, 1, 0);
+CreateLargeSpikes(1527, 1297, 1, 0);
+CreateLargeSpikes(1552, 1297, 1, 0);
+CreateLargeSpikes(1577, 1297, 1, 0);
+CreateLargeSpikes(1602, 1297, 1, 0);
+CreateLargeSpikes(1627, 1297, 1, 0);
+CreateLargeSpikes(1652, 1297, 1, 0);
+CreateLargeSpikes(1677, 1297, 1, 0);
+CreateLargeSpikes(1702, 1297, 1, 0);
+CreateLargeSpikes(1727, 1297, 1, 0);
+CreateLargeSpikes(1752, 1297, 1, 0);
+CreateLargeSpikes(1777, 1297, 1, 0);
+CreateLargeSpikes(1802, 1297, 1, 0);
+CreateLargeSpikes(1827, 1297, 1, 0);
+CreateLargeSpikes(1852, 1297, 1, 0);
+CreateLargeSpikes(1877, 1297, 1, 0);
+CreateLargeSpikes(1902, 1297, 1, 0);
+CreateLargeSpikes(1927, 1297, 1, 0);
+CreateLargeSpikes(1952, 1297, 1, 0);
+CreateLargeSpikes(1977, 1297, 1, 0);
+CreateLargeSpikes(2002, 1297, 1, 0);
+CreateLargeSpikes(2027, 1297, 1, 0);
+CreateLargeSpikes(2052, 1297, 1, 0);
+CreateLargeSpikes(2077, 1297, 1, 0);
+CreateLargeSpikes(2102, 1297, 1, 0);
+
+CreateLargeSpikes(14, 1300, 1, 0);
+CreateLargeSpikes(39, 1300, 1, 0);
+CreateLargeSpikes(64, 1300, 1, 0);
+CreateLargeSpikes(89, 1300, 1, 0);
+CreateLargeSpikes(114, 1300, 1, 0);
+CreateLargeSpikes(139, 1300, 1, 0);
+CreateLargeSpikes(164, 1300, 1, 0);
+CreateLargeSpikes(189, 1300, 1, 0);
+CreateLargeSpikes(214, 1300, 1, 0);
+CreateLargeSpikes(239, 1300, 1, 0);
+CreateLargeSpikes(264, 1300, 1, 0);
+CreateLargeSpikes(289, 1300, 1, 0);
+CreateLargeSpikes(314, 1300, 1, 0);
+CreateLargeSpikes(339, 1300, 1, 0);
+CreateLargeSpikes(364, 1300, 1, 0);
+CreateLargeSpikes(389, 1300, 1, 0);
+CreateLargeSpikes(414, 1300, 1, 0);
+CreateLargeSpikes(439, 1300, 1, 0);
+CreateLargeSpikes(464, 1300, 1, 0);
+CreateLargeSpikes(489, 1300, 1, 0);
+CreateLargeSpikes(514, 1300, 1, 0);
+CreateLargeSpikes(539, 1300, 1, 0);
+CreateLargeSpikes(564, 1300, 1, 0);
+CreateLargeSpikes(589, 1300, 1, 0);
+CreateLargeSpikes(614, 1300, 1, 0);
+CreateLargeSpikes(639, 1300, 1, 0);
+CreateLargeSpikes(664, 1300, 1, 0);
+CreateLargeSpikes(689, 1300, 1, 0);
+CreateLargeSpikes(714, 1300, 1, 0);
+CreateLargeSpikes(739, 1300, 1, 0);
+CreateLargeSpikes(764, 1300, 1, 0);
+CreateLargeSpikes(789, 1300, 1, 0);
+CreateLargeSpikes(814, 1300, 1, 0);
+CreateLargeSpikes(839, 1300, 1, 0);
+CreateLargeSpikes(864, 1300, 1, 0);
+CreateLargeSpikes(889, 1300, 1, 0);
+CreateLargeSpikes(914, 1300, 1, 0);
+CreateLargeSpikes(939, 1300, 1, 0);
+CreateLargeSpikes(964, 1300, 1, 0);
+CreateLargeSpikes(989, 1300, 1, 0);
+CreateLargeSpikes(1014, 1300, 1, 0);
+CreateLargeSpikes(1039, 1300, 1, 0);
+
+CreateLargeSpikes(1293, 779, 1, 0);
+CreateLargeSpikes(1318, 779, 1, 0);
+CreateLargeSpikes(1343, 779, 1, 0);
+CreateLargeSpikes(1368, 779, 1, 0);
+CreateLargeSpikes(1393, 779, 1, 0);
+CreateLargeSpikes(1418, 779, 1, 0);
+CreateLargeSpikes(1443, 779, 1, 0);
+CreateLargeSpikes(1468, 779, 1, 0);
+CreateLargeSpikes(1493, 779, 1, 0);
+CreateLargeSpikes(1518, 779, 1, 0);
+CreateLargeSpikes(1543, 779, 1, 0);
+CreateLargeSpikes(1568, 779, 1, 0);
+CreateLargeSpikes(1593, 779, 1, 0);
+CreateLargeSpikes(1618, 779, 1, 0);
+CreateLargeSpikes(1643, 779, 1, 0);
+CreateLargeSpikes(1668, 779, 1, 0);
+CreateLargeSpikes(1693, 779, 1, 0);
+CreateLargeSpikes(1718, 779, 1, 0);
+CreateLargeSpikes(1743, 779, 1, 0);
+CreateLargeSpikes(1768, 779, 1, 0);
+CreateLargeSpikes(1793, 779, 1, 0);
+CreateLargeSpikes(1818, 779, 1, 0);
+CreateLargeSpikes(1843, 779, 1, 0);
+
+AddBreakingPlatform(1357, 492);
+AddBreakingPlatform(1417, 492);
+AddBreakingPlatform(1477, 492);
+
+AddBreakingPlatform(1580, 309);
+AddBreakingPlatform(1640, 309);
+AddBreakingPlatform(1700, 309);
+
+AddBreakingPlatform(1811, 492);
+AddBreakingPlatform(1871, 492);
+AddBreakingPlatform(1931, 492);
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/SolidPlatform/SolidPlatform89x20", ConvertUnits.ToSimUnits(new Vector2(2075, 1062))));
+
+AddBreakingPlatform(1323, 1090);
+AddBreakingPlatform(1383, 1090);
+AddBreakingPlatform(1443, 1090);
+AddBreakingPlatform(1503, 1090);
+AddBreakingPlatform(1563, 1090);
+AddBreakingPlatform(1623, 1090);
+AddBreakingPlatform(1683, 1090);
+AddBreakingPlatform(1743, 1090);
+AddBreakingPlatform(1803, 1090);
+
+AddEnemyNinja1(1878, 433);
+
+AddEnemyNinja1(1641, 250);
+
+AddEnemyNinja1(1480, 436);
+
+AddEnemyNinja1(1368, 1028);
+
+AddEnemyNinja1(1586, 1026);
+
+////----End Level Setup Code----////

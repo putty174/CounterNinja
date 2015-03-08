@@ -1,0 +1,55 @@
+//This is the output code for the CN Level Editor. Place into void LoadContent()
+//Level Name: Maze1
+
+//This creates the visual image of the backgroundTexture for you to see
+BackgroundSystem.AddBodylessBackground("Level/Maze1/Maze1_Background");
+//This creates the physical body for the room
+BackgroundSystem.AddBackgroundBody("Level/Maze1/Maze1_BodyBackground", 1f, Vector2.Zero);
+
+CameraBoundary = new CameraBoundary(0, 2138, 0, 1439);
+
+//Play default music
+MusicSystem.PlaySong("Music/CounterNinja_BGM");
+MusicSystem.Repeat = true;
+
+////----Level Setup Code Below----////
+
+SetPlayerLocation(113, 1353);
+
+AddEnemyNinja1(864, 1350);
+
+AddEnemyNinja1(599, 924);
+
+AddEnemyNinja1(1151, 896);
+
+AddEnemyNinja1(1412, 684);
+
+AddEnemyNinja1(1728, 1145);
+
+AddEnemyNinja1(1727, 1352);
+
+CreateLargeSpikes(1063, 1147, 1, 0);
+CreateLargeSpikes(1088, 1147, 1, 0);
+
+CreateLargeSpikes(1285, 1358, 1, 0);
+CreateLargeSpikes(1310, 1358, 1, 0);
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform120x10", ConvertUnits.ToSimUnits(new Vector2(139, 1084))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform120x10", ConvertUnits.ToSimUnits(new Vector2(139, 964))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform150x10", ConvertUnits.ToSimUnits(new Vector2(421, 843))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform150x10", ConvertUnits.ToSimUnits(new Vector2(419, 723))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform150x10", ConvertUnits.ToSimUnits(new Vector2(420, 604))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform180x10", ConvertUnits.ToSimUnits(new Vector2(736, 1294))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform330x10", ConvertUnits.ToSimUnits(new Vector2(1051, 485))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform226x10", ConvertUnits.ToSimUnits(new Vector2(1381, 1185))));
+
+AddSolidPlatform146x30(272, 964);
+
+////----End Level Setup Code----////

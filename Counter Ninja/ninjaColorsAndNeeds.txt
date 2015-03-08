@@ -1,0 +1,10 @@
+poison dart-purple
+
+regular-red
+
+bomb-yellow/black
+
+boomerang- ...? (maybe blue?)
+	-needs catching animation
+
+Windmill suriken-(maybe white?)

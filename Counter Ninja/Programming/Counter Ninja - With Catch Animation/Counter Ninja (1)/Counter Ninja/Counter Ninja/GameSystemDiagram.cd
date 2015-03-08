@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CounterNinja.CounterNinjaScreen">
+    <Position X="1.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BARAkBSEABCAAoAQQECQABIAEAACkIQBQAQEAQAgUAQ=</HashCode>
+      <FileName>GameSystem\CounterNinjaScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.GameOverScreen">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAwAAACAAAAABgAAAAAwIAQCEAAAAAAAAAQQAAAAAAQ=</HashCode>
+      <FileName>GameSystem\GameOverScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.GameStartScreen">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAIAAAEBAgAAAAAgIAACAAAIAAAAAAQQAAAAAAQ=</HashCode>
+      <FileName>GameSystem\GameStartScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.LoadingScreen">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAwAAAAAAAAABgAAAAAwIAQCEAAAAAAAAAQQAAAAAAQ=</HashCode>
+      <FileName>GameSystem\LoadingScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.PauseScreen">
+    <Position X="8.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameSystem\PauseScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

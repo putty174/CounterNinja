@@ -1,0 +1,185 @@
+//This is the output code for the CN Level Editor. Place into void LoadContent()
+//Level Name: buddy4.cne
+
+//This creates the visual image of the backgroundTexture for you to see
+BackgroundSystem.AddBodylessBackgroundSet(("Level/buddy4.cne/buddy4.cne_Background"), 1, 2, 2);
+//This creates the physical body for the room
+BackgroundSystem.AddBackgroundBody("Level/buddy4.cne/buddy4.cne_BodyBackground", 1.72025f, Vector2.Zero);
+
+CameraBoundary = new CameraBoundary(0, 6881, 0, 2560);
+
+//Play default music
+MusicSystem.PlaySong("Music/CounterNinja_BGM");
+MusicSystem.Repeat = true;
+
+//Load next level trigger
+object[] levelParam = new object[1] { new LoadingScreen(new LevelTemplate1(), 2) };
+ScriptSystem.AddScript(new TriggerScript(this, ScriptCommand.LoadNextLevel, "NextLevel", levelParam, Player.Body, ConvertUnits.ToSimUnits(new Vector2(2003, 415)), 2, 1));
+
+//Load next level trigger
+object[] levelParam = new object[1] { new LoadingScreen(new LevelTemplate1(), 2) };
+ScriptSystem.AddScript(new TriggerScript(this, ScriptCommand.LoadNextLevel, "NextLevel", levelParam, Player.Body, ConvertUnits.ToSimUnits(new Vector2(6513, 2057)), 2, 1));
+
+
+
+////----Level Setup Code Below----////
+
+SetPlayerLocation(1557, 1759);
+
+AddEnemyNinjaBomb1(882, 1759);
+
+AddEnemyNinja1(830, 1905);
+
+UnitSystem.AddUnit(new EnemySamurai1(UnitSystem, new Vector2(478, 1903), 400, 2));
+
+AddEnemyNinja1(1039, 1904);
+
+AddBreakingPlatform(2668, 1963);
+AddBreakingPlatform(2728, 1963);
+AddBreakingPlatform(2788, 1963);
+AddBreakingPlatform(2848, 1963);
+AddBreakingPlatform(2908, 1963);
+AddBreakingPlatform(2968, 1963);
+AddBreakingPlatform(3028, 1963);
+AddBreakingPlatform(3088, 1963);
+AddBreakingPlatform(3148, 1963);
+AddBreakingPlatform(3208, 1963);
+AddBreakingPlatform(3268, 1963);
+AddBreakingPlatform(3328, 1963);
+AddBreakingPlatform(3388, 1963);
+AddBreakingPlatform(3448, 1963);
+AddBreakingPlatform(3508, 1963);
+AddBreakingPlatform(3568, 1963);
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform330x10", ConvertUnits.ToSimUnits(new Vector2(3123, 1797))));
+
+AddEnemyNinja1(3138, 1904);
+
+CreateLargeSpikes(2657, 2014, 1, 0);
+CreateLargeSpikes(2682, 2014, 1, 0);
+CreateLargeSpikes(2707, 2014, 1, 0);
+CreateLargeSpikes(2732, 2014, 1, 0);
+CreateLargeSpikes(2757, 2014, 1, 0);
+CreateLargeSpikes(2782, 2014, 1, 0);
+CreateLargeSpikes(2807, 2014, 1, 0);
+CreateLargeSpikes(2832, 2014, 1, 0);
+CreateLargeSpikes(2857, 2014, 1, 0);
+CreateLargeSpikes(2882, 2014, 1, 0);
+CreateLargeSpikes(2907, 2014, 1, 0);
+CreateLargeSpikes(2932, 2014, 1, 0);
+CreateLargeSpikes(2957, 2014, 1, 0);
+CreateLargeSpikes(2982, 2014, 1, 0);
+CreateLargeSpikes(3007, 2014, 1, 0);
+CreateLargeSpikes(3032, 2014, 1, 0);
+CreateLargeSpikes(3057, 2014, 1, 0);
+CreateLargeSpikes(3082, 2014, 1, 0);
+CreateLargeSpikes(3107, 2014, 1, 0);
+CreateLargeSpikes(3132, 2014, 1, 0);
+CreateLargeSpikes(3157, 2014, 1, 0);
+CreateLargeSpikes(3182, 2014, 1, 0);
+CreateLargeSpikes(3207, 2014, 1, 0);
+CreateLargeSpikes(3232, 2014, 1, 0);
+CreateLargeSpikes(3257, 2014, 1, 0);
+CreateLargeSpikes(3282, 2014, 1, 0);
+CreateLargeSpikes(3307, 2014, 1, 0);
+CreateLargeSpikes(3332, 2014, 1, 0);
+CreateLargeSpikes(3357, 2014, 1, 0);
+CreateLargeSpikes(3382, 2014, 1, 0);
+CreateLargeSpikes(3407, 2014, 1, 0);
+CreateLargeSpikes(3432, 2014, 1, 0);
+CreateLargeSpikes(3457, 2014, 1, 0);
+CreateLargeSpikes(3482, 2014, 1, 0);
+CreateLargeSpikes(3507, 2014, 1, 0);
+CreateLargeSpikes(3532, 2014, 1, 0);
+CreateLargeSpikes(3557, 2014, 1, 0);
+CreateLargeSpikes(3582, 2014, 1, 0);
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform330x10", ConvertUnits.ToSimUnits(new Vector2(4193, 1961))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform226x10", ConvertUnits.ToSimUnits(new Vector2(4535, 1787))));
+
+AddSolidPlatform596x30(4231, 1424);
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform226x10", ConvertUnits.ToSimUnits(new Vector2(4506, 1193))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform330x10", ConvertUnits.ToSimUnits(new Vector2(4237, 847))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform226x10", ConvertUnits.ToSimUnits(new Vector2(4012, 1062))));
+
+AddSolidPlatform146x30(3803, 625);
+
+CreateLargeSpikes(2815, 701, 1, 0);
+CreateLargeSpikes(2840, 701, 1, 0);
+CreateLargeSpikes(2865, 701, 1, 0);
+CreateLargeSpikes(2890, 701, 1, 0);
+CreateLargeSpikes(2915, 701, 1, 0);
+CreateLargeSpikes(2940, 701, 1, 0);
+CreateLargeSpikes(2965, 701, 1, 0);
+CreateLargeSpikes(2990, 701, 1, 0);
+CreateLargeSpikes(3015, 701, 1, 0);
+CreateLargeSpikes(3040, 701, 1, 0);
+CreateLargeSpikes(3065, 701, 1, 0);
+CreateLargeSpikes(3090, 701, 1, 0);
+CreateLargeSpikes(3115, 701, 1, 0);
+
+AddEnemyNinjaBomb1(3757, 562);
+
+AddEnemyNinjaBomb1(2143, 414);
+
+AddEnemyNinja1(2321, 559);
+
+UnitSystem.AddUnit(new EnemySamurai1(UnitSystem, new Vector2(3232, 561), 100, 2));
+
+AddEnemyNinja1(2765, 561);
+
+UnitSystem.AddUnit(new RiceBall(UnitSystem, new Vector2(4458, 1395)));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform226x10", ConvertUnits.ToSimUnits(new Vector2(3846, 1662))));
+
+AddEnemyNinjaBomb1(3057, 1740);
+
+AddEnemyNinja1(4165, 1905);
+
+AddEnemyNinjaBomb1(4446, 1730);
+
+AddEnemyNinja1(4514, 1358);
+
+AddEnemyNinjaBomb1(4434, 1137);
+
+AddEnemyNinja1(4279, 1906);
+
+AddEnemyNinja1(4236, 793);
+
+AddEnemyNinjaBomb1(4092, 1004);
+
+UnitSystem.AddUnit(new EnemySamurai1(UnitSystem, new Vector2(4229, 2048), 400, 2));
+
+AddEnemyNinja1(4790, 2316);
+
+AddEnemyNinjaBomb1(5892, 2058);
+
+AddEnemyNinja1(5916, 2319);
+
+AddEnemyNinja1(5384, 2319);
+
+UnitSystem.AddUnit(new EnemySamurai1(UnitSystem, new Vector2(5054, 2319), 400, 2));
+
+UnitSystem.AddUnit(new EnemySamurai1(UnitSystem, new Vector2(5665, 2318), 400, 2));
+
+UnitSystem.AddUnit(new EnemySamurai1(UnitSystem, new Vector2(6042, 2058), 400, 2));
+
+AddEnemyNinja1(6271, 2056);
+
+AddEnemyNinja1(4843, 2048);
+
+AddAmmoKunai(99, 1928);
+
+AddAmmoShuriken(3120, 1767);
+
+AddEnemyNinjaBomb1(3199, 1742);
+
+AddAmmoKunai(4409, 1384);
+
+AddEnemyNinja1(3943, 998);
+
+////----End Level Setup Code----////

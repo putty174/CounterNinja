@@ -1,0 +1,45 @@
+//This is the output code for the CN Level Editor. Place into void LoadContent()
+//Level Name: Room1
+
+//This creates the visual image of the backgroundTexture for you to see
+BackgroundSystem.AddBodylessBackgroundSet(("Level/Room1/Room1_Background"), 1, 2, 2);
+//This creates the physical body for the room
+BackgroundSystem.AddBackgroundBody("Level/Room1/Room1_BodyBackground", 1.2005f, Vector2.Zero);
+
+CameraBoundary = new CameraBoundary(0, 4802, 0, 960);
+
+//Play default music
+MusicSystem.PlaySong("Music/CounterNinja_BGM");
+MusicSystem.Repeat = true;
+
+////----Level Setup Code Below----////
+
+SetPlayerLocation(118, 850);
+
+AddEnemyNinja1(860, 793);
+
+AddEnemyNinja1(1683, 852);
+
+AddEnemyNinja1(1855, 671);
+
+AddEnemyNinja1(3099, 794);
+
+AddEnemyNinja1(3197, 795);
+
+AddEnemyNinja1(2415, 854);
+
+AddEnemyNinja1(3733, 853);
+
+AddEnemyNinja1(4186, 795);
+
+CreateLargeSpikes(3760, 939, 1, 0);
+CreateLargeSpikes(3785, 939, 1, 0);
+CreateLargeSpikes(3810, 939, 1, 0);
+CreateLargeSpikes(3835, 939, 1, 0);
+CreateLargeSpikes(3860, 939, 1, 0);
+
+//Load next level trigger
+object[] levelParam = new object[1] { new LoadingScreen(new LevelTemplate1(), 3) };
+ScriptSystem.AddScript(new TriggerScript(this, ScriptCommand.LoadNextLevel, "NextLevel", levelParam, Player.Body, ConvertUnits.ToSimUnits(new Vector2(4546, 851)), 2, 1));
+
+////----End Level Setup Code----////

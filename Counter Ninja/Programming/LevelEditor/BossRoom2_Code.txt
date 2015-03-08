@@ -1,0 +1,41 @@
+//This is the output code for the CN Level Editor. Place into void LoadContent()
+//Level Name: BossRoom2
+
+//This creates the visual image of the backgroundTexture for you to see
+BackgroundSystem.AddBodylessBackground("Level/BossRoom2/BossRoom2_Background");
+//This creates the physical body for the room
+BackgroundSystem.AddBackgroundBody("Level/BossRoom2/BossRoom2_BodyBackground", 1f, Vector2.Zero);
+
+CameraBoundary = new CameraBoundary(0, 1280, 0, 960);
+
+//Play default music
+MusicSystem.PlaySong("Music/CounterNinja_BGM");
+MusicSystem.Repeat = true;
+
+////----Level Setup Code Below----////
+
+SetPlayerLocation(402, 827);
+
+UnitSystem.AddUnit(new TeleportingBoss(UnitSystem, ConvertUnits.ToSimUnits(new Vector2(834, 831))));
+
+AddBreakingPlatform(586, 493);
+AddBreakingPlatform(646, 493);
+AddBreakingPlatform(706, 493);
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform120x10", ConvertUnits.ToSimUnits(new Vector2(254, 273))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform120x10", ConvertUnits.ToSimUnits(new Vector2(390, 410))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform120x10", ConvertUnits.ToSimUnits(new Vector2(392, 573))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform120x10", ConvertUnits.ToSimUnits(new Vector2(906, 571))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform120x10", ConvertUnits.ToSimUnits(new Vector2(908, 413))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform120x10", ConvertUnits.ToSimUnits(new Vector2(1042, 272))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform120x10", ConvertUnits.ToSimUnits(new Vector2(1043, 707))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform120x10", ConvertUnits.ToSimUnits(new Vector2(253, 707))));
+
+////----End Level Setup Code----////

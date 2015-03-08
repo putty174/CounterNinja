@@ -1,0 +1,18 @@
+//This is the output code for the CN Level Editor. Place into void LoadContent()
+//Level Name: Trilayer
+
+//This creates the physical body for the room
+BackgroundSystem.AddBackgroundBody("FileNameForBackgroundBody", 1f, Vector2.Zero);
+//This creates the visual image of the backgroundTexture for you to see
+BackgroundSystem.AddBodylessBackground("FileNameForBackgroundImage");
+
+SetPlayerLocation(77, 632);
+
+AddEnemyNinja1(309, 626);
+
+AddEnemyNinja1(675, 603);
+
+AddEnemyNinja1(515, 479);
+
+AddEnemyNinja1(467, 331);
+

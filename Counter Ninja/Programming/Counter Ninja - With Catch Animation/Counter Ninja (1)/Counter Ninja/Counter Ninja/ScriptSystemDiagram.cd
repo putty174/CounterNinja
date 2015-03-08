@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CounterNinja.Script.ScriptSystem">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAwIEIAAACAAAQAgAAAAAAQAAAAAAAAEEAAAAAIAAAA=</HashCode>
+      <FileName>Script\ScriptSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Script.SmartScript">
+    <Position X="2.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQwIAACAEDCAAFAABAgAAAwAAKCQCIgQUBQAAAEACAA=</HashCode>
+      <FileName>Script\SmartScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Script.TimedScript">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAQAAAAAAAgAgAAQAAAAAAAAgAAAAIAAAAAA=</HashCode>
+      <FileName>Script\TimedScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Script.TriggerScript">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAgQAAAAAAAgAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Script\TriggerScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CounterNinja.Script.ScriptCommand">
+    <Position X="9.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAACAEAAAABAAAAgAAAgAAKAAAIAQQBAEAAEACAA=</HashCode>
+      <FileName>Script\SmartScript.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

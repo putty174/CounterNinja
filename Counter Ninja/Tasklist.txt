@@ -1,0 +1,9 @@
+We'll start using this to track what needs to be done and who's doing what.
+
+===Design===
+Instructions Page - Max (Completed, but don't know where to put it)
+
+===Programming===
+Respawn - Stevie
+Projectile Slowing
+Enemies attack onscreen only - Stevie

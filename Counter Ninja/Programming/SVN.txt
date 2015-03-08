@@ -1,0 +1,4 @@
+http://svn.astralwow.info:9880/Counter-Ninja
+
+Username: counterninja
+password: counterninja

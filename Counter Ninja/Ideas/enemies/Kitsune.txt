@@ -1,0 +1,29 @@
+Kitsune: Teleporting enemy
+
+-1 HP (or more. up for discussion)
+-Hurt by projectiles from both front and back
+-Starts in a single location, teleporting when the player gets near
+-If it teleports into player, the player will be hurt.
+
+Looks:
+
+	A bipedial, humanoid fox in a traditional japanese kimono. Gender is up to artists It has the face and head of a fox, but is in the shape of a human,
+	similar to how Anubis is a bipedial jackal with a human shaped body. The color of the kimono corresponds to the type of weapon it throws. 
+	Red kimono for ones that throw regular kunai, and orange/black for ones that throw bombs. 
+	
+Behavior Overview:
+	It starts in a singular location. When the player gets near it (i.e. the player can see it on screen), it instantly teleports to a random 
+	location on the same horizontal plane as the player on the player's screen. After arriving at it's new location, it will pause for a fraction of a second
+	(exact time to be determined) and throw 3 of a projectile, depending on what color it's kimono is. Red kimono'd Kitsune throw regular kunai, 
+	while orange/black kimono'd kitsune throw bombs. After throwing it's projectile, it will teleport horizontally to a new location on the player's 
+	screen and start the cycle over again.
+
+Behavior Notes:
+	It will never teleport into a pit, off the edge of a cliff, or in a space that is already occupied by a fellow
+	enemy. It will only teleport into spaces that it can stand on (a platform, the ground, etc). If there is no spot on the same horizontal plane as the 
+	player that it can stand on, then it will teleport to another random location on the player's screen
+	However, if it teleports into the player, the player is knocked back and takes 1 damage. All its projectiles do
+	1 damage. They share the same color scheme as their corresponding ninja. It's attacks do not hurt other enemies,
+	only the player. When it throws a projectile, the projectile will go through enemies until it reaches a player or hits a wall.
+	this is to prevent the player from using other enemies as "meat shields". Finally, it will never teleport farther than a certain distance away from it's
+	original location (distance to be determined).

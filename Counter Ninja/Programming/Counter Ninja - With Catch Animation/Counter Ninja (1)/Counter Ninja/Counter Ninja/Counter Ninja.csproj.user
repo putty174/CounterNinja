@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>publish\|ftp://ftp.pisync.t15.org/public_html/</PublishUrlHistory>
+    <InstallUrlHistory />
+    <SupportUrlHistory>https://eee.uci.edu/wiki/index.php/ICS_62_S11_PiSync</SupportUrlHistory>
+    <UpdateUrlHistory>http://pisync.serveftp.com/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory>https://eee.uci.edu/wiki/index.php/ICS_62_S11_PiSync</ErrorReportUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

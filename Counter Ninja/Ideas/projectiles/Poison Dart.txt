@@ -1,0 +1,20 @@
+Poison Dart
+
+Effect:
+This projectile does no damage. Instead, when it hits an enemy, it stuns
+the enemy for X seconds. While stunned, the afflicted enemy cannot throw projectiles, attck, 
+move, turn, or teleport for the duration of the stun. However, taking damage while stunned
+instantly breaks the stun. If it does not hit an enemy, then it does nothing, similar to how
+a regular kunai does nothing if it does not hit an enemy.
+
+Physics/How is throws:
+This projectile acts and throws in the same way that the regular kunai does. You throw it,
+it hits, it stuns. Nothing too complicated.
+
+Appearance:
+I have no idea. Maybe it can look like on of those darts you throw at a dart board? Suggestions needed
+
+Enemy usage:
+We'll propably need another palate swapped ninja so that we can have an enemy use this. Dart throwing
+ninjas will probably be a support type enemy. We'll also need an ammo refill bag for this. I'm not sure about a
+kitsune throwing darts, since that would just be too annoying.

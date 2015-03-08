@@ -1,0 +1,95 @@
+//This is the output code for the CN Level Editor. Place into void LoadContent()
+//Level Name: DroppingPagoda
+
+//This creates the visual image of the backgroundTexture for you to see
+BackgroundSystem.AddBodylessBackground("DroppingPagoda_Background");
+//This creates the physical body for the room
+BackgroundSystem.AddBackgroundBody("DroppingPagoda_BodyBackground", 1f, Vector2.Zero);
+
+CameraBoundary = new CameraBoundary(0, 1250, 0, 1250);
+
+//Play default music
+MusicSystem.PlaySong("Music/CounterNinja_BGM");
+MusicSystem.Repeat = true;
+
+////----Level Setup Code Below----////
+
+SetPlayerLocation(360, 182);
+
+AddEnemyNinja1(456, 344);
+
+AddEnemyNinja1(1000, 667);
+
+AddEnemyNinja1(440, 666);
+
+CreateLargeSpikes(951, 666, 1, 0);
+
+CreateLargeSpikes(922, 666, 1, 0);
+
+AddEnemyNinja1(610, 1196);
+
+AddBreakingPlatform(808, 220);
+AddBreakingPlatform(868, 220);
+AddBreakingPlatform(928, 220);
+
+AddBreakingPlatform(231, 380);
+AddBreakingPlatform(291, 380);
+AddBreakingPlatform(351, 380);
+
+AddBreakingPlatform(986, 540);
+AddBreakingPlatform(1046, 540);
+AddBreakingPlatform(1106, 540);
+
+AddBreakingPlatform(45, 700);
+AddBreakingPlatform(105, 700);
+AddBreakingPlatform(165, 700);
+
+AddBreakingPlatform(773, 1230);
+AddBreakingPlatform(833, 1230);
+AddBreakingPlatform(893, 1230);
+AddBreakingPlatform(953, 1230);
+AddBreakingPlatform(1013, 1230);
+AddBreakingPlatform(1073, 1230);
+
+CreateSmallSpikes(746, 1250, 1, 0);
+CreateSmallSpikes(757, 1250, 1, 0);
+CreateSmallSpikes(768, 1250, 1, 0);
+CreateSmallSpikes(779, 1250, 1, 0);
+CreateSmallSpikes(790, 1250, 1, 0);
+CreateSmallSpikes(801, 1250, 1, 0);
+CreateSmallSpikes(812, 1250, 1, 0);
+CreateSmallSpikes(823, 1250, 1, 0);
+CreateSmallSpikes(834, 1250, 1, 0);
+CreateSmallSpikes(845, 1250, 1, 0);
+CreateSmallSpikes(856, 1250, 1, 0);
+CreateSmallSpikes(867, 1250, 1, 0);
+CreateSmallSpikes(878, 1250, 1, 0);
+CreateSmallSpikes(889, 1250, 1, 0);
+CreateSmallSpikes(900, 1250, 1, 0);
+CreateSmallSpikes(911, 1250, 1, 0);
+CreateSmallSpikes(922, 1250, 1, 0);
+CreateSmallSpikes(933, 1250, 1, 0);
+CreateSmallSpikes(944, 1250, 1, 0);
+CreateSmallSpikes(955, 1250, 1, 0);
+CreateSmallSpikes(966, 1250, 1, 0);
+CreateSmallSpikes(977, 1250, 1, 0);
+CreateSmallSpikes(988, 1250, 1, 0);
+CreateSmallSpikes(999, 1250, 1, 0);
+CreateSmallSpikes(1010, 1250, 1, 0);
+CreateSmallSpikes(1021, 1250, 1, 0);
+CreateSmallSpikes(1032, 1250, 1, 0);
+CreateSmallSpikes(1043, 1250, 1, 0);
+CreateSmallSpikes(1054, 1250, 1, 0);
+CreateSmallSpikes(1065, 1250, 1, 0);
+CreateSmallSpikes(1076, 1250, 1, 0);
+CreateSmallSpikes(1087, 1250, 1, 0);
+CreateSmallSpikes(1098, 1250, 1, 0);
+CreateSmallSpikes(1109, 1250, 1, 0);
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform120x10", ConvertUnits.ToSimUnits(new Vector2(175, 1123)));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform120x10", ConvertUnits.ToSimUnits(new Vector2(232, 1026)));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform120x10", ConvertUnits.ToSimUnits(new Vector2(296, 947)));
+
+////----End Level Setup Code----////

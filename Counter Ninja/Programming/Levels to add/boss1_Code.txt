@@ -1,0 +1,25 @@
+//This is the output code for the CN Level Editor. Place into void LoadContent()
+//Level Name: boss1
+
+//This creates the visual image of the backgroundTexture for you to see
+BackgroundSystem.AddBodylessBackground("Level/boss1/boss1_Background");
+//This creates the physical body for the room
+BackgroundSystem.AddBackgroundBody("Level/boss1/boss1_BodyBackground", 1f, Vector2.Zero);
+
+CameraBoundary = new CameraBoundary(0, 1266, 0, 720);
+
+//Play default music
+MusicSystem.PlaySong("Music/CounterNinja_BGM");
+MusicSystem.Repeat = true;
+
+
+
+////----Level Setup Code Below----////
+
+SetPlayerLocation(568, 608);
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform120x10", ConvertUnits.ToSimUnits(new Vector2(145, 462))));
+
+AddAmmoKunai(106, 434);
+
+////----End Level Setup Code----////

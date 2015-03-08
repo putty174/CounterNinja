@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CounterNinja.Subtitle.BasicSubtitle">
+    <Position X="1.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAwEAAAAADAAAgAQQAAAAEQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subtitle\BasicSubtitle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Subtitle.SimpleSubtitle">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACwAAAIAAABAAgAAAAAgIAACAAAAAAAAgAAQAAAAAAA=</HashCode>
+      <FileName>Subtitle\SimpleSubtitle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Subtitle.SubtitleSystem">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gA4AEAAAAAAAAgAgAAAAAEQAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Subtitle\SubtitleSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

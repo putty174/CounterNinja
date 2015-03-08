@@ -1,0 +1,410 @@
+//This is the output code for the CN Level Editor. Place into void LoadContent()
+//Level Name: PagodaRuins
+
+//This creates the visual image of the backgroundTexture for you to see
+BackgroundSystem.AddBodylessBackgroundSet(("Level/PagodaRuins/PagodaRuins_Background"), 1, 2, 2);
+//This creates the physical body for the room
+BackgroundSystem.AddBackgroundBody("Level/PagodaRuins/PagodaRuins_BodyBackground", 1.745f, Vector2.Zero);
+
+CameraBoundary = new CameraBoundary(0, 6980, 0, 2960);
+
+//Play default music
+MusicSystem.PlaySong("Music/CounterNinja_BGM");
+MusicSystem.Repeat = true;
+
+//Load next level trigger
+object[] levelParam = new object[1] { new LoadingScreen(new LevelTemplate1(), 3) };
+ScriptSystem.AddScript(new TriggerScript(this, ScriptCommand.LoadNextLevel, "NextLevel", levelParam, Player.Body, ConvertUnits.ToSimUnits(new Vector2(5561, 901)), 2, 1));
+
+
+
+////----Level Setup Code Below----////
+
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform660x60", 675, 2104);
+
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform660x60", 1454, 2044);
+
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform660x60", 2299, 2046);
+
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform660x60", 3059, 2124);
+
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform480x60", 3643, 1633);
+
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform480x60", 4273, 1501);
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform180x20", ConvertUnits.ToSimUnits(new Vector2(2740, 1892))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform180x20", ConvertUnits.ToSimUnits(new Vector2(3098, 1747))));
+
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5860, 1110);
+
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 6077, 1110);
+
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 6277, 1110);
+
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 6047, 1553);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 6107, 1553);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 6167, 1553);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 6227, 1553);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 6287, 1553);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 6347, 1553);
+
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 6582, 1391);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 6642, 1391);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 6702, 1391);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 6762, 1391);
+
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5507, 1703);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5567, 1703);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5627, 1703);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5687, 1703);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5747, 1703);
+
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5624, 1644);
+
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 4946, 1702);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5006, 1702);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5066, 1702);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5126, 1702);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5186, 1702);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5246, 1702);
+
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5245, 1581);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5245, 1641);
+
+UnitSystem.AddUnit(new EnemySamurai1(UnitSystem, new Vector2(2233, 1967), 400, 2));
+
+AddEnemyNinja1(4166, 1422);
+
+AddEnemyNinja1(5861, 1028);
+
+UnitSystem.AddUnit(new EnemySamurai1(UnitSystem, new Vector2(6179, 1473), 400, 2));
+
+CreateLargeSpikes(4199, 1447, 1, 0);
+CreateLargeSpikes(4224, 1447, 1, 0);
+CreateLargeSpikes(4249, 1447, 1, 0);
+CreateLargeSpikes(4274, 1447, 1, 0);
+CreateLargeSpikes(4299, 1447, 1, 0);
+CreateLargeSpikes(4324, 1447, 1, 0);
+CreateLargeSpikes(4349, 1447, 1, 0);
+
+CreateLargeSpikes(3560, 1580, 1, 0);
+CreateLargeSpikes(3585, 1580, 1, 0);
+CreateLargeSpikes(3610, 1580, 1, 0);
+CreateLargeSpikes(3635, 1580, 1, 0);
+CreateLargeSpikes(3660, 1580, 1, 0);
+CreateLargeSpikes(3685, 1580, 1, 0);
+CreateLargeSpikes(3710, 1580, 1, 0);
+
+CreateSmallSpikes(633, 2064, 1, 0);
+CreateSmallSpikes(644, 2064, 1, 0);
+CreateSmallSpikes(655, 2064, 1, 0);
+CreateSmallSpikes(666, 2064, 1, 0);
+CreateSmallSpikes(677, 2064, 1, 0);
+CreateSmallSpikes(688, 2064, 1, 0);
+CreateSmallSpikes(699, 2064, 1, 0);
+CreateSmallSpikes(710, 2064, 1, 0);
+CreateSmallSpikes(721, 2064, 1, 0);
+CreateSmallSpikes(732, 2064, 1, 0);
+
+SetPlayerLocation(496, 2024);
+
+AddEnemyNinja1(1661, 1964);
+
+AddEnemyNinja1(1424, 1966);
+
+AddEnemyNinja1(3514, 2046);
+
+AddEnemyNinja1(3464, 2044);
+
+AddEnemyNinja1(5111, 1627);
+
+CreateLargeSpikes(5193, 1659, 1, 270);
+
+CreateLargeSpikes(5193, 1639, 1, 270);
+
+CreateLargeSpikes(5193, 1621, 1, 270);
+
+CreateLargeSpikes(5193, 1597, 1, 270);
+
+CreateLargeSpikes(5193, 1574, 1, 270);
+
+CreateLargeSpikes(5612, 1592, 1, 0);
+CreateLargeSpikes(5637, 1592, 1, 0);
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/ThinPlatform/ThinPlatform180x20", ConvertUnits.ToSimUnits(new Vector2(6548, 1095))));
+
+UnitSystem.AddUnit(new PassThroughPlatform(UnitSystem, "Object/Platform/SolidPlatform/SolidPlatform89x20", ConvertUnits.ToSimUnits(new Vector2(6754, 1235))));
+
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5472, 982);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5532, 982);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5592, 982);
+AddSolidPlatform("Object/Platform/SolidPlatform/SolidPlatform60x60", 5652, 982);
+
+CreateLargeSpikes(186, 2935, 1, 0);
+CreateLargeSpikes(211, 2935, 1, 0);
+CreateLargeSpikes(236, 2935, 1, 0);
+CreateLargeSpikes(261, 2935, 1, 0);
+CreateLargeSpikes(286, 2935, 1, 0);
+CreateLargeSpikes(311, 2935, 1, 0);
+CreateLargeSpikes(336, 2935, 1, 0);
+CreateLargeSpikes(361, 2935, 1, 0);
+CreateLargeSpikes(386, 2935, 1, 0);
+CreateLargeSpikes(411, 2935, 1, 0);
+CreateLargeSpikes(436, 2935, 1, 0);
+CreateLargeSpikes(461, 2935, 1, 0);
+CreateLargeSpikes(486, 2935, 1, 0);
+CreateLargeSpikes(511, 2935, 1, 0);
+CreateLargeSpikes(536, 2935, 1, 0);
+CreateLargeSpikes(561, 2935, 1, 0);
+CreateLargeSpikes(586, 2935, 1, 0);
+CreateLargeSpikes(611, 2935, 1, 0);
+CreateLargeSpikes(636, 2935, 1, 0);
+CreateLargeSpikes(661, 2935, 1, 0);
+CreateLargeSpikes(686, 2935, 1, 0);
+CreateLargeSpikes(711, 2935, 1, 0);
+CreateLargeSpikes(736, 2935, 1, 0);
+CreateLargeSpikes(761, 2935, 1, 0);
+CreateLargeSpikes(786, 2935, 1, 0);
+CreateLargeSpikes(811, 2935, 1, 0);
+CreateLargeSpikes(836, 2935, 1, 0);
+CreateLargeSpikes(861, 2935, 1, 0);
+CreateLargeSpikes(886, 2935, 1, 0);
+CreateLargeSpikes(911, 2935, 1, 0);
+CreateLargeSpikes(936, 2935, 1, 0);
+CreateLargeSpikes(961, 2935, 1, 0);
+CreateLargeSpikes(986, 2935, 1, 0);
+CreateLargeSpikes(1011, 2935, 1, 0);
+CreateLargeSpikes(1036, 2935, 1, 0);
+CreateLargeSpikes(1061, 2935, 1, 0);
+CreateLargeSpikes(1086, 2935, 1, 0);
+CreateLargeSpikes(1111, 2935, 1, 0);
+CreateLargeSpikes(1136, 2935, 1, 0);
+CreateLargeSpikes(1161, 2935, 1, 0);
+CreateLargeSpikes(1186, 2935, 1, 0);
+CreateLargeSpikes(1211, 2935, 1, 0);
+CreateLargeSpikes(1236, 2935, 1, 0);
+CreateLargeSpikes(1261, 2935, 1, 0);
+CreateLargeSpikes(1286, 2935, 1, 0);
+CreateLargeSpikes(1311, 2935, 1, 0);
+CreateLargeSpikes(1336, 2935, 1, 0);
+CreateLargeSpikes(1361, 2935, 1, 0);
+CreateLargeSpikes(1386, 2935, 1, 0);
+CreateLargeSpikes(1411, 2935, 1, 0);
+CreateLargeSpikes(1436, 2935, 1, 0);
+CreateLargeSpikes(1461, 2935, 1, 0);
+CreateLargeSpikes(1486, 2935, 1, 0);
+CreateLargeSpikes(1511, 2935, 1, 0);
+CreateLargeSpikes(1536, 2935, 1, 0);
+CreateLargeSpikes(1561, 2935, 1, 0);
+CreateLargeSpikes(1586, 2935, 1, 0);
+CreateLargeSpikes(1611, 2935, 1, 0);
+CreateLargeSpikes(1636, 2935, 1, 0);
+CreateLargeSpikes(1661, 2935, 1, 0);
+CreateLargeSpikes(1686, 2935, 1, 0);
+CreateLargeSpikes(1711, 2935, 1, 0);
+CreateLargeSpikes(1736, 2935, 1, 0);
+CreateLargeSpikes(1761, 2935, 1, 0);
+CreateLargeSpikes(1786, 2935, 1, 0);
+CreateLargeSpikes(1811, 2935, 1, 0);
+CreateLargeSpikes(1836, 2935, 1, 0);
+CreateLargeSpikes(1861, 2935, 1, 0);
+CreateLargeSpikes(1886, 2935, 1, 0);
+CreateLargeSpikes(1911, 2935, 1, 0);
+CreateLargeSpikes(1936, 2935, 1, 0);
+CreateLargeSpikes(1961, 2935, 1, 0);
+CreateLargeSpikes(1986, 2935, 1, 0);
+CreateLargeSpikes(2011, 2935, 1, 0);
+CreateLargeSpikes(2036, 2935, 1, 0);
+CreateLargeSpikes(2061, 2935, 1, 0);
+CreateLargeSpikes(2086, 2935, 1, 0);
+CreateLargeSpikes(2111, 2935, 1, 0);
+CreateLargeSpikes(2136, 2935, 1, 0);
+CreateLargeSpikes(2161, 2935, 1, 0);
+CreateLargeSpikes(2186, 2935, 1, 0);
+CreateLargeSpikes(2211, 2935, 1, 0);
+CreateLargeSpikes(2236, 2935, 1, 0);
+CreateLargeSpikes(2261, 2935, 1, 0);
+CreateLargeSpikes(2286, 2935, 1, 0);
+CreateLargeSpikes(2311, 2935, 1, 0);
+CreateLargeSpikes(2336, 2935, 1, 0);
+CreateLargeSpikes(2361, 2935, 1, 0);
+CreateLargeSpikes(2386, 2935, 1, 0);
+CreateLargeSpikes(2411, 2935, 1, 0);
+CreateLargeSpikes(2436, 2935, 1, 0);
+CreateLargeSpikes(2461, 2935, 1, 0);
+CreateLargeSpikes(2486, 2935, 1, 0);
+CreateLargeSpikes(2511, 2935, 1, 0);
+CreateLargeSpikes(2536, 2935, 1, 0);
+CreateLargeSpikes(2561, 2935, 1, 0);
+CreateLargeSpikes(2586, 2935, 1, 0);
+CreateLargeSpikes(2611, 2935, 1, 0);
+CreateLargeSpikes(2636, 2935, 1, 0);
+CreateLargeSpikes(2661, 2935, 1, 0);
+CreateLargeSpikes(2686, 2935, 1, 0);
+CreateLargeSpikes(2711, 2935, 1, 0);
+CreateLargeSpikes(2736, 2935, 1, 0);
+CreateLargeSpikes(2761, 2935, 1, 0);
+CreateLargeSpikes(2786, 2935, 1, 0);
+CreateLargeSpikes(2811, 2935, 1, 0);
+CreateLargeSpikes(2836, 2935, 1, 0);
+CreateLargeSpikes(2861, 2935, 1, 0);
+CreateLargeSpikes(2886, 2935, 1, 0);
+CreateLargeSpikes(2911, 2935, 1, 0);
+CreateLargeSpikes(2936, 2935, 1, 0);
+CreateLargeSpikes(2961, 2935, 1, 0);
+CreateLargeSpikes(2986, 2935, 1, 0);
+CreateLargeSpikes(3011, 2935, 1, 0);
+CreateLargeSpikes(3036, 2935, 1, 0);
+CreateLargeSpikes(3061, 2935, 1, 0);
+CreateLargeSpikes(3086, 2935, 1, 0);
+CreateLargeSpikes(3111, 2935, 1, 0);
+CreateLargeSpikes(3136, 2935, 1, 0);
+CreateLargeSpikes(3161, 2935, 1, 0);
+CreateLargeSpikes(3186, 2935, 1, 0);
+CreateLargeSpikes(3211, 2935, 1, 0);
+CreateLargeSpikes(3236, 2935, 1, 0);
+CreateLargeSpikes(3261, 2935, 1, 0);
+CreateLargeSpikes(3286, 2935, 1, 0);
+CreateLargeSpikes(3311, 2935, 1, 0);
+CreateLargeSpikes(3336, 2935, 1, 0);
+CreateLargeSpikes(3361, 2935, 1, 0);
+CreateLargeSpikes(3386, 2935, 1, 0);
+CreateLargeSpikes(3411, 2935, 1, 0);
+CreateLargeSpikes(3436, 2935, 1, 0);
+CreateLargeSpikes(3461, 2935, 1, 0);
+CreateLargeSpikes(3486, 2935, 1, 0);
+CreateLargeSpikes(3511, 2935, 1, 0);
+CreateLargeSpikes(3536, 2935, 1, 0);
+CreateLargeSpikes(3561, 2935, 1, 0);
+CreateLargeSpikes(3586, 2935, 1, 0);
+CreateLargeSpikes(3611, 2935, 1, 0);
+CreateLargeSpikes(3636, 2935, 1, 0);
+CreateLargeSpikes(3661, 2935, 1, 0);
+CreateLargeSpikes(3686, 2935, 1, 0);
+CreateLargeSpikes(3711, 2935, 1, 0);
+CreateLargeSpikes(3736, 2935, 1, 0);
+CreateLargeSpikes(3761, 2935, 1, 0);
+CreateLargeSpikes(3786, 2935, 1, 0);
+CreateLargeSpikes(3811, 2935, 1, 0);
+CreateLargeSpikes(3836, 2935, 1, 0);
+CreateLargeSpikes(3861, 2935, 1, 0);
+CreateLargeSpikes(3886, 2935, 1, 0);
+CreateLargeSpikes(3911, 2935, 1, 0);
+CreateLargeSpikes(3936, 2935, 1, 0);
+CreateLargeSpikes(3961, 2935, 1, 0);
+CreateLargeSpikes(3986, 2935, 1, 0);
+CreateLargeSpikes(4011, 2935, 1, 0);
+CreateLargeSpikes(4036, 2935, 1, 0);
+CreateLargeSpikes(4061, 2935, 1, 0);
+CreateLargeSpikes(4086, 2935, 1, 0);
+CreateLargeSpikes(4111, 2935, 1, 0);
+CreateLargeSpikes(4136, 2935, 1, 0);
+CreateLargeSpikes(4161, 2935, 1, 0);
+CreateLargeSpikes(4186, 2935, 1, 0);
+CreateLargeSpikes(4211, 2935, 1, 0);
+CreateLargeSpikes(4236, 2935, 1, 0);
+CreateLargeSpikes(4261, 2935, 1, 0);
+CreateLargeSpikes(4286, 2935, 1, 0);
+CreateLargeSpikes(4311, 2935, 1, 0);
+CreateLargeSpikes(4336, 2935, 1, 0);
+CreateLargeSpikes(4361, 2935, 1, 0);
+CreateLargeSpikes(4386, 2935, 1, 0);
+CreateLargeSpikes(4411, 2935, 1, 0);
+CreateLargeSpikes(4436, 2935, 1, 0);
+CreateLargeSpikes(4461, 2935, 1, 0);
+CreateLargeSpikes(4486, 2935, 1, 0);
+CreateLargeSpikes(4511, 2935, 1, 0);
+CreateLargeSpikes(4536, 2935, 1, 0);
+CreateLargeSpikes(4561, 2935, 1, 0);
+CreateLargeSpikes(4586, 2935, 1, 0);
+CreateLargeSpikes(4611, 2935, 1, 0);
+CreateLargeSpikes(4636, 2935, 1, 0);
+CreateLargeSpikes(4661, 2935, 1, 0);
+CreateLargeSpikes(4686, 2935, 1, 0);
+CreateLargeSpikes(4711, 2935, 1, 0);
+CreateLargeSpikes(4736, 2935, 1, 0);
+CreateLargeSpikes(4761, 2935, 1, 0);
+CreateLargeSpikes(4786, 2935, 1, 0);
+CreateLargeSpikes(4811, 2935, 1, 0);
+CreateLargeSpikes(4836, 2935, 1, 0);
+CreateLargeSpikes(4861, 2935, 1, 0);
+CreateLargeSpikes(4886, 2935, 1, 0);
+CreateLargeSpikes(4911, 2935, 1, 0);
+CreateLargeSpikes(4936, 2935, 1, 0);
+CreateLargeSpikes(4961, 2935, 1, 0);
+CreateLargeSpikes(4986, 2935, 1, 0);
+CreateLargeSpikes(5011, 2935, 1, 0);
+CreateLargeSpikes(5036, 2935, 1, 0);
+CreateLargeSpikes(5061, 2935, 1, 0);
+CreateLargeSpikes(5086, 2935, 1, 0);
+CreateLargeSpikes(5111, 2935, 1, 0);
+CreateLargeSpikes(5136, 2935, 1, 0);
+CreateLargeSpikes(5161, 2935, 1, 0);
+CreateLargeSpikes(5186, 2935, 1, 0);
+CreateLargeSpikes(5211, 2935, 1, 0);
+CreateLargeSpikes(5236, 2935, 1, 0);
+CreateLargeSpikes(5261, 2935, 1, 0);
+CreateLargeSpikes(5286, 2935, 1, 0);
+CreateLargeSpikes(5311, 2935, 1, 0);
+CreateLargeSpikes(5336, 2935, 1, 0);
+CreateLargeSpikes(5361, 2935, 1, 0);
+CreateLargeSpikes(5386, 2935, 1, 0);
+CreateLargeSpikes(5411, 2935, 1, 0);
+CreateLargeSpikes(5436, 2935, 1, 0);
+CreateLargeSpikes(5461, 2935, 1, 0);
+CreateLargeSpikes(5486, 2935, 1, 0);
+CreateLargeSpikes(5511, 2935, 1, 0);
+CreateLargeSpikes(5536, 2935, 1, 0);
+CreateLargeSpikes(5561, 2935, 1, 0);
+CreateLargeSpikes(5586, 2935, 1, 0);
+CreateLargeSpikes(5611, 2935, 1, 0);
+CreateLargeSpikes(5636, 2935, 1, 0);
+CreateLargeSpikes(5661, 2935, 1, 0);
+CreateLargeSpikes(5686, 2935, 1, 0);
+CreateLargeSpikes(5711, 2935, 1, 0);
+CreateLargeSpikes(5736, 2935, 1, 0);
+CreateLargeSpikes(5761, 2935, 1, 0);
+CreateLargeSpikes(5786, 2935, 1, 0);
+CreateLargeSpikes(5811, 2935, 1, 0);
+CreateLargeSpikes(5836, 2935, 1, 0);
+CreateLargeSpikes(5861, 2935, 1, 0);
+CreateLargeSpikes(5886, 2935, 1, 0);
+CreateLargeSpikes(5911, 2935, 1, 0);
+CreateLargeSpikes(5936, 2935, 1, 0);
+CreateLargeSpikes(5961, 2935, 1, 0);
+CreateLargeSpikes(5986, 2935, 1, 0);
+CreateLargeSpikes(6011, 2935, 1, 0);
+CreateLargeSpikes(6036, 2935, 1, 0);
+CreateLargeSpikes(6061, 2935, 1, 0);
+CreateLargeSpikes(6086, 2935, 1, 0);
+CreateLargeSpikes(6111, 2935, 1, 0);
+CreateLargeSpikes(6136, 2935, 1, 0);
+CreateLargeSpikes(6161, 2935, 1, 0);
+CreateLargeSpikes(6186, 2935, 1, 0);
+CreateLargeSpikes(6211, 2935, 1, 0);
+CreateLargeSpikes(6236, 2935, 1, 0);
+CreateLargeSpikes(6261, 2935, 1, 0);
+CreateLargeSpikes(6286, 2935, 1, 0);
+CreateLargeSpikes(6311, 2935, 1, 0);
+CreateLargeSpikes(6336, 2935, 1, 0);
+CreateLargeSpikes(6361, 2935, 1, 0);
+CreateLargeSpikes(6386, 2935, 1, 0);
+CreateLargeSpikes(6411, 2935, 1, 0);
+CreateLargeSpikes(6436, 2935, 1, 0);
+CreateLargeSpikes(6461, 2935, 1, 0);
+CreateLargeSpikes(6486, 2935, 1, 0);
+CreateLargeSpikes(6511, 2935, 1, 0);
+CreateLargeSpikes(6536, 2935, 1, 0);
+CreateLargeSpikes(6561, 2935, 1, 0);
+CreateLargeSpikes(6586, 2935, 1, 0);
+CreateLargeSpikes(6611, 2935, 1, 0);
+CreateLargeSpikes(6636, 2935, 1, 0);
+CreateLargeSpikes(6661, 2935, 1, 0);
+CreateLargeSpikes(6686, 2935, 1, 0);
+CreateLargeSpikes(6711, 2935, 1, 0);
+CreateLargeSpikes(6736, 2935, 1, 0);
+CreateLargeSpikes(6761, 2935, 1, 0);
+CreateLargeSpikes(6786, 2935, 1, 0);
+
+////----End Level Setup Code----////

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CounterNinja.Unit.AnimatedSprite">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQABgEAAQgAAAUAAABAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Unit\AnimatedSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Unit.BasicProjectile">
+    <Position X="14" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQABABAACAAggEAAAAhAAEAARABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\BasicProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Unit.BossSamurai">
+    <Position X="17" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>KgQAACAAASIAAlAAIUBBAAGAAAACAUAQAAAAYCIQARA=</HashCode>
+      <FileName>Unit\BossSamurai.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Unit.BottomlessPitDamage">
+    <Position X="22.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAABAAAAAQAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Unit\BottomlessPitDamage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Unit.Enemy">
+    <Position X="6.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CgQAACAAAaIAAlAAIUBBAAGAAAACAUAQAAAAYCIQARA=</HashCode>
+      <FileName>Unit\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Unit.EnemyState">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAgAAAAAAAEAAAAAAAACCA=</HashCode>
+      <FileName>Unit\EnemyState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Unit.GameObject">
+    <Position X="19.5" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAgAAAAABAAEAARAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Unit.HealthCounter">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIABCAAAAAgAAQEACAEAIAAAACAAAAgIAAAAA=</HashCode>
+      <FileName>Unit\HealthCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Unit.Player">
+    <Position X="11.25" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CiQigCiCACIIAsAAQCBhAkVAACAQHEoQEAAAICAQAbQ=</HashCode>
+      <FileName>Unit\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Unit.PlayerState">
+    <Position X="29" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAgAAAAAAAEAAAAAAAACCA=</HashCode>
+      <FileName>Unit\PlayerState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Unit.ProjectileWithBody">
+    <Position X="25.25" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAACAAAgAAAAAhAAEAARAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\ProjectileWithBody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Unit.SpikeCeiling1">
+    <Position X="9" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAQgAAAAABAAAAARAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Unit\SpikeCeiling1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Unit.Unit">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAxGCAAAADBAAgAAAAAwAAMQAAABAAAgAAAAAAAAQgg=</HashCode>
+      <FileName>Unit\Unit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Unit.UnitData">
+    <Position X="30.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAABAAAgAAAAAAAAAgA=</HashCode>
+      <FileName>Unit\UnitData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CounterNinja.Unit.UnitSystem">
+    <Position X="32.5" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQUEAAAADBAAgAgAAAAUAQAAQAQEAECEAAAAAAAAAA=</HashCode>
+      <FileName>Unit\UnitSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CounterNinja.Unit.ProjectileType">
+    <Position X="32.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Unit\BasicProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CounterNinja.Unit.EState">
+    <Position X="29" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAIAAAAAAAAAAAAAAAAAAAAAAAAIAACAAAAAIQA=</HashCode>
+      <FileName>Unit\EnemyState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CounterNinja.Unit.FaceDirection">
+    <Position X="30.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>Unit\Player.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CounterNinja.Unit.PState">
+    <Position X="29" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAIAACAAAAAIQA=</HashCode>
+      <FileName>Unit\PlayerState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CounterNinja.Unit.TypeId">
+    <Position X="30.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAIAA=</HashCode>
+      <FileName>Unit\Unit.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

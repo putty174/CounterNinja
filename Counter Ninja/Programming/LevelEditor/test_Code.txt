@@ -1,0 +1,45 @@
+//This is the output code for the CN Level Editor. Place into void LoadContent()
+//Level Name: test
+
+//This creates the physical body for the room
+BackgroundSystem.AddBackgroundBody("FileNameForBackgroundBody", 1f, Vector2.Zero);
+//This creates the visual image of the backgroundTexture for you to see
+BackgroundSystem.AddBodylessBackground("FileNameForBackgroundImage");
+
+AddBreakingPlatform(227, 375);
+AddBreakingPlatform(287, 375);
+AddBreakingPlatform(347, 375);
+AddBreakingPlatform(407, 375);
+AddBreakingPlatform(467, 375);
+AddBreakingPlatform(527, 375);
+AddBreakingPlatform(587, 375);
+AddBreakingPlatform(647, 375);
+AddBreakingPlatform(707, 375);
+AddBreakingPlatform(767, 375);
+AddBreakingPlatform(827, 375);
+AddBreakingPlatform(887, 375);
+
+AddBreakingPlatform(379, 263);
+AddBreakingPlatform(439, 263);
+AddBreakingPlatform(499, 263);
+AddBreakingPlatform(559, 263);
+AddBreakingPlatform(619, 263);
+AddBreakingPlatform(679, 263);
+AddBreakingPlatform(739, 263);
+AddBreakingPlatform(799, 263);
+AddBreakingPlatform(859, 263);
+AddBreakingPlatform(919, 263);
+
+AddBreakingPlatform(75, 161);
+AddBreakingPlatform(135, 161);
+AddBreakingPlatform(195, 161);
+AddBreakingPlatform(255, 161);
+AddBreakingPlatform(315, 161);
+AddBreakingPlatform(375, 161);
+AddBreakingPlatform(435, 161);
+AddBreakingPlatform(495, 161);
+AddBreakingPlatform(555, 161);
+AddBreakingPlatform(615, 161);
+AddBreakingPlatform(675, 161);
+AddBreakingPlatform(735, 161);
+

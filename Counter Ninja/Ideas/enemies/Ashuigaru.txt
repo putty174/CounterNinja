@@ -1,0 +1,21 @@
+Ashigaru: Basic "goomba" style enemy
+
+-1 HP
+-Hurt by projectiles from both front and back
+-Hurt by spikes or falling into pits
+-Patrols a specific area back and forth
+-Only moves at one speed
+-If comes into contact with player from the front, the player will be hurt.
+
+Looks:
+
+	He is an ashigaru (basic japanese foot soldier) that is weilding a spear. He wears a conical asian straw hat on hjis head. on his feet, he wears japanese style sandals
+	with socks and a cloth belt. He wears shin guards, arm guards, and bracers. He also wears a japanese-style scale curiass that covers his midsection and his hip area. The
+	bottom of the curiass opens up in a skirt-like fashion. Under all the armor, the Ashigaru wears a cloth long sleeve shirt and cloth pants. He always holds his spear out in front
+	of him so that he hits players that run into him from the front. The type of spear that the Ashigaru uses is a Yari, which looks like a long pole with a strait blade attached to the end.
+
+Behavior:
+	He walks in a set path back and forth until he hits a wall. When he hits a wall, he turn around until he hits another wall, dies, or reaches the end of his preset path.
+	 He moves at a speed that is slower than the player and the chargins boss. He damages the player by coming into contact with the player with his front side, since he sticks 
+	out the pointy part of his spear in front of him.. he can be damaged by getting hit by a projectile from the front or the back. He can also be damaged by spikes
+	and other level hazards.When he dies, he dies in a puff of smoke, similar to the basic ninja enemy. He does not follow the player around because he follows a set path.

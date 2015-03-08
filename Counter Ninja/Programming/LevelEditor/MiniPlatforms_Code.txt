@@ -1,0 +1,22 @@
+//This is the output code for the CN Level Editor. Place into void LoadContent()
+//Level Name: MiniPlatforms
+
+//This creates the physical body for the room
+BackgroundSystem.AddBackgroundBody("FileNameForBackgroundBody", 1f, Vector2.Zero);
+//This creates the visual image of the backgroundTexture for you to see
+BackgroundSystem.AddBodylessBackground("FileNameForBackgroundImage");
+
+SetPlayerLocation(100, 629);
+
+AddEnemyNinja1(341, 550);
+
+AddEnemyNinja1(327, 372);
+
+AddEnemyNinja1(170, 237);
+
+AddEnemyNinja1(205, 74);
+
+AddEnemyNinja1(699, 543);
+
+AddEnemyNinja1(826, 136);
+

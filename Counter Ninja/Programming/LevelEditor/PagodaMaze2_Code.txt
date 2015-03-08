@@ -1,0 +1,36 @@
+//This is the output code for the CN Level Editor. Place into void LoadContent()
+//Level Name: PagodaMaze2
+
+//This creates the physical body for the room
+BackgroundSystem.AddBackgroundBody("FileNameForBackgroundBody", 1f, Vector2.Zero);
+//This creates the visual image of the backgroundTexture for you to see
+BackgroundSystem.AddBodylessBackground("FileNameForBackgroundImage");
+
+SetPlayerLocation(71, 1417);
+
+AddEnemyNinja1(837, 1421);
+
+AddEnemyNinja1(828, 1142);
+
+AddEnemyNinja1(1425, 1422);
+
+AddEnemyNinja1(1757, 1177);
+
+AddEnemyNinja1(1693, 870);
+
+AddEnemyNinja1(1624, 285);
+
+AddEnemyNinja1(964, 281);
+
+AddEnemyNinja1(731, 220);
+
+AddEnemyNinja1(941, 677);
+
+AddEnemyNinja1(329, 495);
+
+AddEnemyNinja1(175, 145);
+
+AddEnemyNinja1(255, 149);
+
+AddEnemyNinja1(1441, 77);
+

@@ -1,0 +1,13 @@
+To be done now:
+if boss hits wall, spikes should fall from cieling in random spots. It does 2 damage per spike
+iNCREASE ALL SPEEDS BY 50%.
+add line of spikes to cieling
+
+
+to BE ADDED LATER:
+
+jump kick: he jumps strait up into the air and then kicks toward where the player is standing. The entire attack 
+from start to finish is in a triangle shape. It does 2 damage.
+
+slam attack: he jumps in the air to the center of the rooom. He than goes strait down and sends a shockwave
+out when he hits the floor. Does 2 damage.

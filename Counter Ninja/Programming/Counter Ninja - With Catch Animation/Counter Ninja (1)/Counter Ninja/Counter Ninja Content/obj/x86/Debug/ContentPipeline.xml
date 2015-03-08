@@ -1,0 +1,1236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Materials\blank.png</Source>
+      <Name>Materials\blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Materials\blank.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Common\gradient.png</Source>
+      <Name>Common\gradient</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Common\gradient.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Common\logo.png</Source>
+      <Name>Common\logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Common\logo.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Materials\dots.png</Source>
+      <Name>Materials\dots</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Materials\dots.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Materials\pavement.png</Source>
+      <Name>Materials\pavement</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Materials\pavement.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Materials\squares.png</Source>
+      <Name>Materials\squares</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Materials\squares.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Materials\waves.png</Source>
+      <Name>Materials\waves</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Materials\waves.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Common\cursor.png</Source>
+      <Name>Common\cursor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Common\cursor.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Common\popup.png</Source>
+      <Name>Common\popup</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Common\popup.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Common\arrow.png</Source>
+      <Name>Common\arrow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Common\arrow.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Common\slider.png</Source>
+      <Name>Common\slider</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Common\slider.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Common\socket.png</Source>
+      <Name>Common\socket</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Common\socket.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Common\stick.png</Source>
+      <Name>Common\stick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Common\stick.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Common\buttons.png</Source>
+      <Name>Common\buttons</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Common\buttons.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\dust.png</Source>
+      <Name>Particle\dust</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Particle\dust.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\dust2.png</Source>
+      <Name>Particle\dust2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Particle\dust2.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\bubble.png</Source>
+      <Name>Particle\bubble</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Particle\bubble.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Particle\bubble2.png</Source>
+      <Name>Particle\bubble2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Particle\bubble2.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Object\heavybox_large.png</Source>
+      <Name>Object\heavybox_large</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Object\heavybox_large.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Object\heavybox_medium.png</Source>
+      <Name>Object\heavybox_medium</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Object\heavybox_medium.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Object\heavybox_small.png</Source>
+      <Name>Object\heavybox_small</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Object\heavybox_small.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Object\pickable_block_large.png</Source>
+      <Name>Object\pickable_block_large</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Object\pickable_block_large.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Object\pickable_block_medium.png</Source>
+      <Name>Object\pickable_block_medium</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Object\pickable_block_medium.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Object\pickable_block_small.png</Source>
+      <Name>Object\pickable_block_small</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Object\pickable_block_small.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Object\white_box_large.png</Source>
+      <Name>Object\white_box_large</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Object\white_box_large.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Object\white_box_medium.png</Source>
+      <Name>Object\white_box_medium</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Object\white_box_medium.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Object\white_box_small.png</Source>
+      <Name>Object\white_box_small</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Object\white_box_small.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Background_01.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Background_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Background_01.xnb</Output>
+      <Time>2012-01-21T23:39:06-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Background_02.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Background_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Background_02.xnb</Output>
+      <Time>2012-01-21T23:39:06-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Background_03.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Background_03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Background_03.xnb</Output>
+      <Time>2012-01-21T23:39:06-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Background_04.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Background_04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Background_04.xnb</Output>
+      <Time>2012-01-21T23:39:06-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Background_05.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Background_05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Background_05.xnb</Output>
+      <Time>2012-01-21T23:39:06-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Background_06.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Background_06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Background_06.xnb</Output>
+      <Time>2012-01-21T23:39:06-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Background_07.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Background_07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Background_07.xnb</Output>
+      <Time>2012-01-21T23:39:06-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Background_08.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Background_08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Background_08.xnb</Output>
+      <Time>2012-01-21T23:39:06-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Background_09.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Background_09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Background_09.xnb</Output>
+      <Time>2012-01-21T23:39:06-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Background_10.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Background_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Background_10.xnb</Output>
+      <Time>2012-01-21T23:39:06-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Background_11.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Background_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Background_11.xnb</Output>
+      <Time>2012-01-21T23:39:06-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Background_12.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Background_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Background_12.xnb</Output>
+      <Time>2012-01-21T23:39:06-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Background_13.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Background_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Background_13.xnb</Output>
+      <Time>2012-01-21T23:39:08-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Background_14.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Background_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Background_14.xnb</Output>
+      <Time>2012-01-21T23:39:08-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Background_15.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Background_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Background_15.xnb</Output>
+      <Time>2012-01-21T23:39:08-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Background_16.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Background_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Background_16.xnb</Output>
+      <Time>2012-01-21T23:39:08-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Overlay_01.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Overlay_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Overlay_01.xnb</Output>
+      <Time>2012-01-21T23:39:08-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Overlay_02.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Overlay_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Overlay_02.xnb</Output>
+      <Time>2012-01-21T23:39:08-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Overlay_03.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Overlay_03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Overlay_03.xnb</Output>
+      <Time>2012-01-21T23:39:08-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Overlay_04.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Overlay_04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Overlay_04.xnb</Output>
+      <Time>2012-01-21T23:39:08-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Overlay_05.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Overlay_05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Overlay_05.xnb</Output>
+      <Time>2012-01-21T23:39:08-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Overlay_06.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Overlay_06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Overlay_06.xnb</Output>
+      <Time>2012-01-21T23:39:08-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Overlay_08.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Overlay_08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Overlay_08.xnb</Output>
+      <Time>2012-01-21T23:39:08-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Overlay_09.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Overlay_09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Overlay_09.xnb</Output>
+      <Time>2012-01-21T23:39:08-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Overlay_10.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Overlay_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Overlay_10.xnb</Output>
+      <Time>2012-01-21T23:39:08-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Background\Level2_v2_Overlay_12.png</Source>
+      <Name>Level\Level2\Background\Level2_v2_Overlay_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Background\Level2_v2_Overlay_12.xnb</Output>
+      <Time>2012-01-21T23:39:08-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Level2_v2_Body.png</Source>
+      <Name>Level\Level2\Level2_v2_Body</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Level2_v2_Body.xnb</Output>
+      <Time>2012-01-21T23:39:06-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Level2_v2_Map.jpg</Source>
+      <Name>Level\Level2\Level2_v2_Map</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Level2_v2_Map.xnb</Output>
+      <Time>2012-01-21T23:39:06-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Object\heavybox_smaller.png</Source>
+      <Name>Object\heavybox_smaller</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Object\heavybox_smaller.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\LoadingScreen.jpg</Source>
+      <Name>Menu\LoadingScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Menu\LoadingScreen.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Hud\reddot.png</Source>
+      <Name>Hud\reddot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Hud\reddot.xnb</Output>
+      <Time>2012-01-21T23:39:06-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\FarseerLogo.jpg</Source>
+      <Name>Menu\FarseerLogo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Menu\FarseerLogo.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\MainMenu.jpg</Source>
+      <Name>Menu\MainMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Menu\MainMenu.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\TempScreen.png</Source>
+      <Name>Menu\TempScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Menu\TempScreen.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Sample1\SampleRoom1.jpg</Source>
+      <Name>Level\Sample1\SampleRoom1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Sample1\SampleRoom1.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Sample1\SampleRoom1_Body.png</Source>
+      <Name>Level\Sample1\SampleRoom1_Body</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Sample1\SampleRoom1_Body.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Sample2\Room1.png</Source>
+      <Name>Level\Sample2\Room1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Sample2\Room1.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Sample2\Room1_Body.png</Source>
+      <Name>Level\Sample2\Room1_Body</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Sample2\Room1_Body.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Object\Platform1.png</Source>
+      <Name>Object\Platform1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Object\Platform1.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Kunai.png</Source>
+      <Name>Player\Kunai</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Kunai.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\PlayerStand.png</Source>
+      <Name>Player\PlayerStand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\PlayerStand.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy\NinjaBlack.png</Source>
+      <Name>Enemy\NinjaBlack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Enemy\NinjaBlack.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Hud\KunaiCounter.png</Source>
+      <Name>Hud\KunaiCounter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Hud\KunaiCounter.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Hud\PlayerLifeCounter.png</Source>
+      <Name>Hud\PlayerLifeCounter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Hud\PlayerLifeCounter.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Hud\Health1.png</Source>
+      <Name>Hud\Health1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Hud\Health1.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Hud\Health2.png</Source>
+      <Name>Hud\Health2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Hud\Health2.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Hud\Health3.png</Source>
+      <Name>Hud\Health3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Hud\Health3.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Hud\Health4.png</Source>
+      <Name>Hud\Health4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Hud\Health4.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Hud\Health5.png</Source>
+      <Name>Hud\Health5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Hud\Health5.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Jump\jumpingFrame1.png</Source>
+      <Name>Player\Jump\jumpingFrame1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Jump\jumpingFrame1.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Jump\jumpingFrame2jump1.png</Source>
+      <Name>Player\Jump\jumpingFrame2jump1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Jump\jumpingFrame2jump1.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Jump\jumpingFrame3jump2.png</Source>
+      <Name>Player\Jump\jumpingFrame3jump2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Jump\jumpingFrame3jump2.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Jump\jumpingFrame4UpOrDown.png</Source>
+      <Name>Player\Jump\jumpingFrame4UpOrDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Jump\jumpingFrame4UpOrDown.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Jump\jumpingFrame5landing.png</Source>
+      <Name>Player\Jump\jumpingFrame5landing</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Jump\jumpingFrame5landing.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Run\RUNNINGCOLOR1.png</Source>
+      <Name>Player\Run\RUNNINGCOLOR1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Run\RUNNINGCOLOR1.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Run\RUNNINGCOLOR2.png</Source>
+      <Name>Player\Run\RUNNINGCOLOR2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Run\RUNNINGCOLOR2.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Run\RUNNINGCOLOR3.png</Source>
+      <Name>Player\Run\RUNNINGCOLOR3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Run\RUNNINGCOLOR3.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Run\RUNNINGCOLOR4.png</Source>
+      <Name>Player\Run\RUNNINGCOLOR4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Run\RUNNINGCOLOR4.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Run\RUNNINGCOLOR5.png</Source>
+      <Name>Player\Run\RUNNINGCOLOR5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Run\RUNNINGCOLOR5.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Run\RUNNINGCOLOR6.png</Source>
+      <Name>Player\Run\RUNNINGCOLOR6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Run\RUNNINGCOLOR6.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Run\RUNNINGCOLOR7.png</Source>
+      <Name>Player\Run\RUNNINGCOLOR7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Run\RUNNINGCOLOR7.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Run\RUNNINGCOLOR8.png</Source>
+      <Name>Player\Run\RUNNINGCOLOR8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Run\RUNNINGCOLOR8.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Crouch\countninjacrouchframe1.png</Source>
+      <Name>Player\Crouch\countninjacrouchframe1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Crouch\countninjacrouchframe1.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Crouch\countninjacrouchframe2.png</Source>
+      <Name>Player\Crouch\countninjacrouchframe2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Crouch\countninjacrouchframe2.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>GameOver\GameOver.jpg</Source>
+      <Name>GameOver\GameOver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\GameOver\GameOver.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Object\CeilingSpike.png</Source>
+      <Name>Object\CeilingSpike</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Object\CeilingSpike.xnb</Output>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy\counterninjaSAMURAI.png</Source>
+      <Name>Enemy\counterninjaSAMURAI</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Enemy\counterninjaSAMURAI.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Catch\Catch1.png</Source>
+      <Name>Player\Catch\Catch1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Catch\Catch1.xnb</Output>
+      <Time>2012-01-28T17:50:34-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Catch\Catch2.png</Source>
+      <Name>Player\Catch\Catch2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Catch\Catch2.xnb</Output>
+      <Time>2012-01-28T17:50:34-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\Catch\Catch3.png</Source>
+      <Name>Player\Catch\Catch3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Player\Catch\Catch3.xnb</Output>
+      <Time>2012-01-28T17:50:34-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\detailsFont.spritefont</Source>
+      <Name>Fonts\detailsFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Fonts\detailsFont.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\frameRateCounterFont.spritefont</Source>
+      <Name>Fonts\frameRateCounterFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Fonts\frameRateCounterFont.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\menufont.spritefont</Source>
+      <Name>Fonts\menufont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Fonts\menufont.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\SubtitleFont.spritefont</Source>
+      <Name>Fonts\SubtitleFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Fonts\SubtitleFont.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>font.spritefont</Source>
+      <Name>font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\font.xnb</Output>
+      <Time>2012-01-21T23:39:04-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\a1.wav</Source>
+      <Name>Level\Level2\Sound\a1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\a1.xnb</Output>
+      <Time>2012-01-21T23:39:08-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\a2.wav</Source>
+      <Name>Level\Level2\Sound\a2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\a2.xnb</Output>
+      <Time>2012-01-21T23:39:08-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\a3.wav</Source>
+      <Name>Level\Level2\Sound\a3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\a3.xnb</Output>
+      <Time>2012-01-21T23:39:10-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\a4.wav</Source>
+      <Name>Level\Level2\Sound\a4</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\a4.xnb</Output>
+      <Time>2012-01-21T23:39:10-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\a5.wav</Source>
+      <Name>Level\Level2\Sound\a5</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\a5.xnb</Output>
+      <Time>2012-01-21T23:39:10-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\a6.wav</Source>
+      <Name>Level\Level2\Sound\a6</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\a6.xnb</Output>
+      <Time>2012-01-21T23:39:10-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\a7.wav</Source>
+      <Name>Level\Level2\Sound\a7</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\a7.xnb</Output>
+      <Time>2012-01-21T23:39:10-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\a8.wav</Source>
+      <Name>Level\Level2\Sound\a8</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\a8.xnb</Output>
+      <Time>2012-01-21T23:39:10-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\a9.wav</Source>
+      <Name>Level\Level2\Sound\a9</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\a9.xnb</Output>
+      <Time>2012-01-21T23:39:10-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\b1.wav</Source>
+      <Name>Level\Level2\Sound\b1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\b1.xnb</Output>
+      <Time>2012-01-21T23:39:10-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\b2.wav</Source>
+      <Name>Level\Level2\Sound\b2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\b2.xnb</Output>
+      <Time>2012-01-21T23:39:10-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\b3.wav</Source>
+      <Name>Level\Level2\Sound\b3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\b3.xnb</Output>
+      <Time>2012-01-21T23:39:10-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\b4.wav</Source>
+      <Name>Level\Level2\Sound\b4</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\b4.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\b5.wav</Source>
+      <Name>Level\Level2\Sound\b5</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\b5.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\b6.wav</Source>
+      <Name>Level\Level2\Sound\b6</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\b6.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\b7.wav</Source>
+      <Name>Level\Level2\Sound\b7</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\b7.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\b8.wav</Source>
+      <Name>Level\Level2\Sound\b8</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\b8.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\b9.wav</Source>
+      <Name>Level\Level2\Sound\b9</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\b9.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\c1.wav</Source>
+      <Name>Level\Level2\Sound\c1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\c1.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\c2.wav</Source>
+      <Name>Level\Level2\Sound\c2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\c2.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\c3.wav</Source>
+      <Name>Level\Level2\Sound\c3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\c3.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\c4.wav</Source>
+      <Name>Level\Level2\Sound\c4</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\c4.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2\Sound\c5.wav</Source>
+      <Name>Level\Level2\Sound\c5</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Level\Level2\Sound\c5.xnb</Output>
+      <Time>2012-01-21T23:39:12-08:00</Time>
+    </Item>
+    <Item>
+      <Source>SFX\Jump_NinjaStyle_3.wav</Source>
+      <Name>SFX\Jump_NinjaStyle_3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\SFX\Jump_NinjaStyle_3.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>SFX\Land_v1.wav</Source>
+      <Name>SFX\Land_v1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\SFX\Land_v1.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>SFX\Projectile_HitEnemy_1.wav</Source>
+      <Name>SFX\Projectile_HitEnemy_1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\SFX\Projectile_HitEnemy_1.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>SFX\Projectile_v5.wav</Source>
+      <Name>SFX\Projectile_v5</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\SFX\Projectile_v5.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>SFX\Slide_Short.wav</Source>
+      <Name>SFX\Slide_Short</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\SFX\Slide_Short.xnb</Output>
+      <Time>2012-01-21T23:39:16-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Music\CounterNinja_BGM.wma</Source>
+      <Name>Music\CounterNinja_BGM</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Music\CounterNinja_BGM.xnb</Output>
+      <Extra>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Music\CounterNinja_BGM.wma</Extra>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Music\CounterNinja_Music_v2_Draft.wma</Source>
+      <Name>Music\CounterNinja_Music_v2_Draft</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Music\CounterNinja_Music_v2_Draft.xnb</Output>
+      <Extra>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\Music\CounterNinja_Music_v2_Draft.wma</Extra>
+      <Time>2012-01-21T23:39:14-08:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Antihero\Dropbox\Counter Ninja\Programming\Counter Ninja - With Catch Animation\Counter Ninja (1)\Counter Ninja\Counter Ninja\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-01-21T14:14:42.8312368-08:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
